@@ -6,7 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'FNC - Finance & Consulting')</title>
+    <title>@yield('title', 'KCS - Finance & Consulting')</title>
 
     <meta name="description" content="@yield('meta_description', 'Finance and consulting services.')">
 

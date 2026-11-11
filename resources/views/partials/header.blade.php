@@ -5,7 +5,7 @@
 
                 <div id="logo" class="logo">
                     <a href="{{ route('home') }}" title="">
-                        <img src="{{ asset('assets/images/kreeston-logo-2.png') }}" alt="Company Logo">
+                        <img src="{{ asset('assets/images/Kreeston-Logo-2.png') }}" alt="Company Logo">
                     </a>
                 </div>
 

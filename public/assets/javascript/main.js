@@ -2473,13 +2473,13 @@
     if (retina) {
 
         $('.logo').find('img').attr({
-            src: '/assets/images/kreeston-logo-2.png',
+            src: '/assets/images/Kreeston-Logo-2.png',
             width: '167',
             height: '100'
         });
 
         $('#logo-ft').find('img').attr({
-            src: '/assets/images/kreeston-logo-2.png',
+            src: '/assets/images/Kreeston-Logo-2.png',
             width: '161',
             height: '100'
         });

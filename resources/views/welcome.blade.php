@@ -21,7 +21,7 @@
                     <div class="overlay-black"></div>
 
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('assets/images/slides/kreeston-home-slide-3.jpg') }}" alt=""
+                    <img src="{{ asset('assets/images/slides/kreeston-home-slide-3.webp') }}" alt=""
                         data-bgposition="center center" data-kenburns="off" data-duration="30000"
                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"
@@ -77,7 +77,7 @@
                     <div class="overlay-black"></div>
 
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('assets/images/slides/kreeston-home-slide-2.jpg') }}" alt=""
+                    <img src="{{ asset('assets/images/slides/kreeston-home-slide-2.webp') }}" alt=""
                         data-bgposition="center center" data-kenburns="off" data-duration="30000"
                         data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0"
                         data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10"
