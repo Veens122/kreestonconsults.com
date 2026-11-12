@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@section('title', 'Business & Tax Consulting in Nigeria | Kreeston Consulting Services')
+@section('meta_description', 'Kreeston Consulting Services provides business and financial consulting, accounting, tax advisory, CAC registration, corporate compliance and documentation support in Nigeria.')
 
 @section('content')
     <!-- START REVOLUTION SLIDER 5.4.2 auto mode -->
@@ -61,7 +63,7 @@
                         data-fontsize="['14','14','14','14']" data-width="['auto']" data-height="['auto']">READ MORE
                     </a><!-- END LAYER LINK -->
 
-                    <a href="" target="_self" class="tp-caption flat-button-slider bg-transparent"
+                    <a href="{{ url('/contact-us') }}" target="_self" class="tp-caption flat-button-slider bg-transparent"
                         data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":2000,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                         data-x="['left','left','left','left']" data-hoffset="['225','225','225','205']"
                         data-y="['middle','middle','middle','middle']" data-voffset="['130','140','140','110']"
@@ -137,10 +139,13 @@
                         <h2> We Are KCS</h2>
                     </div>
                     <div class="content">
-                        <p>At KREESTON CONSULTING SERVICES (KCS), we are committed to helping individuals, entrepreneurs and
-                            businesses achieve their goals through reliable, professional and tailored solutions. We provide
-                            expert support in business registration, management and financial consulting, tax compliance,
-                            online registration...</p>
+                        <p>At Kreeston Consulting Services (KCS), we help individuals,
+    entrepreneurs and businesses achieve their goals through reliable
+    business registration, management and financial consulting, tax
+    compliance, online registration and corporate documentation services.
+    We provide practical support to simplify business processes and help
+    clients manage their business obligations with confidence.
+</p>
                     </div>
                     <div class="bottom">
                         <div class="btn-more">
@@ -151,7 +156,7 @@
                 <div class="owl-about">
                     <div class="owl-carousel-1 style1">
                         <div class="images-about">
-                            <img src="{{ asset('assets/images/about/03.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/about/03.jpg') }}" alt="Business consulting and advisory services at Kreeston Consulting Services">
                         </div>
                         <div class="images-about">
                             <img src="{{ asset('assets/images/about/05.jpg') }}" alt="">
@@ -408,7 +413,7 @@
 
                                             <div class="iconbox-icon">
 
-                                                <img src="{{ asset('assets/images/icon/money.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/icon/money.png') }}" alt="Financial consulting services">
 
                                             </div>
 
@@ -430,7 +435,7 @@
 
                                             <div class="iconbox-icon">
 
-                                                <img src="{{ asset('assets/images/icon/idea.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/icon/idea.png') }}" alt="Business registration and CAC services">
 
                                             </div>
 
@@ -452,7 +457,7 @@
 
                                             <div class="iconbox-icon">
 
-                                                <img src="{{ asset('assets/images/icon/startup.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/icon/startup.png') }}" alt="Online business registration services">
 
                                             </div>
 
@@ -475,7 +480,7 @@
 
                                             <div class="iconbox-icon">
 
-                                                <img src="{{ asset('assets/images/icon/creation.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/icon/creation.png') }}" alt="Tax and business documentation services">
 
                                             </div>
 
@@ -642,7 +647,8 @@
 
                     <div class="about-company style1 v1">
 
-                        <h1><span>Your</span> Your <span>Trusted Partner</span> in Business <span>Growth</span></h1>
+                        
+                        <h1><span>Your</span> <span>Trusted Partner</span> in Business <span>Growth</span></h1>
                             
 
                         <p>At KREESTON CONSULTING SERVICES, we provide professional business, management and financial solutions designed to simplify processes, support entrepreneurs and help businesses achieve sustainable growth.</p>

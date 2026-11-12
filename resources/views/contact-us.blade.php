@@ -1,4 +1,32 @@
 @extends('layouts.app')
+@push('scripts')
+<script type="application/ld+json">
+{
+    "@@context": "https://schema.org",
+    "@type": "ContactPage",
+    "@id": "https://kreestonconsults.com/contact-us#contact",
+    "name": "Contact Kreeston Consulting Services",
+    "url": "https://kreestonconsults.com/contact-us",
+    "mainEntity": {
+        "@type": "Organization",
+        "@id": "https://kreestonconsults.com/#organization",
+        "name": "Kreeston Consulting Services",
+        "telephone": "+2348028992555",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "5 Adeogun Street, off Afariogun Street, Charity Bus Stop, Oshodi",
+            "addressLocality": "Oshodi",
+            "addressRegion": "Lagos",
+            "addressCountry": "NG"
+        }
+    }
+}
+</script>
+@endpush
+
+@section('title', 'Contact Kreeston Consulting Services | Business & Tax Consultants in Lagos')
+
+@section('meta_description', 'Contact Kreeston Consulting Services in Oshodi, Lagos, for business consulting, financial advisory, tax support, CAC registration and corporate compliance assistance. Call, email or visit us.')
 
 @section('content')
 
@@ -14,7 +42,7 @@
 
 							<div class="page-title-heading">
 
-								<h1 class="h1-title">Contact Us</h1>
+								<h1 class="h1-title">Contact Kreeston Consulting Services</h1>
 
 							</div><!-- /.page-title-heading -->
 
@@ -190,9 +218,12 @@
        rel="noopener noreferrer" 
        title="Chat with us on WhatsApp">
         +234 8028992555
-    </a> <br>
-     09157517448 <br>
-     08038897618
+    </a> 
+    <br>
+    <a href="tel:+2349157517448">+234 9157517448</a>
+    <br>
+
+<a href="tel:+2348038897618">+234 8038897618</a>
 
                         </div>
 

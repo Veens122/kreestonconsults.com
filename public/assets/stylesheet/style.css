@@ -2703,6 +2703,82 @@ ul.flat-social li {
 }
 
 
+/* CEO Biography Box */
+.ceo-bio-box {
+    border: 3px solid #102747; /* Navy Blue */
+    padding: 5px;
+    border-radius: 8px;
+    background: #ffffff;
+    margin-top: 25px;
+}
+
+/* Inner Gold Border */
+.ceo-bio-content {
+    border: 2px solid #C5A15B; /* Gold */
+    padding: 30px;
+    border-radius: 5px;
+    color: #444444;
+    background: #ffffff;
+}
+
+/* Biography Heading */
+.ceo-bio-content h3 {
+    color: #102747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #C5A15B;
+}
+
+/* Biography Paragraphs */
+.ceo-bio-content p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #444444;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
+/* Professional Values */
+.ceo-bio-footer {
+    color: #102747;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 18px;
+    margin-top: 20px;
+    border-top: 2px solid #C5A15B;
+    line-height: 1.8;
+}
+
+.ceo-bio-footer span {
+    color: #C5A15B;
+    margin: 0 5px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767px) {
+    .ceo-bio-content {
+        padding: 18px;
+    }
+
+    .ceo-bio-content h3 {
+        font-size: 17px;
+    }
+
+    .ceo-bio-content p {
+        font-size: 14px;
+        line-height: 1.8;
+        text-align: left;
+    }
+
+    .ceo-bio-footer {
+        font-size: 13px;
+    }
+}
+
+
+
 
 /* Widget Services */
 
@@ -2974,7 +3050,7 @@ ul.flat-social li {
 
 .footer-bottom .copyright a {
 
-	color: #102747;
+	color: #ffe600;
 
 	font-family: 'Lato';
 

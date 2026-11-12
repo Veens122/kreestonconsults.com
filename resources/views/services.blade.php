@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title', 'Business Registration, Tax & Financial Consulting | Kreeston')
+
+@section('meta_description', 'Kreeston Consulting Services offers CAC registration, financial advisory, tax compliance, TIN support, SCUML assistance and business documentation in Nigeria.')
+
 @section('content')
 
 		<div class="page-title parallax parallax9">
@@ -20,7 +24,7 @@
 
 							<ul class="breadcrumbs">
 
-								<li><a href="#" title="">Home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+								<li><a href="{{ route('home') }}" title="Home">Home<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
 
 								<li>Services</li>
 
@@ -214,7 +218,6 @@
                                                             Business Planning and Financial Management
 
                                                         </li>
-
 														<li>
 
 															Financial Reporting and Business Records Support
@@ -356,11 +359,10 @@
 
 													<ul>
 
-														<li>
+															 <li>    
+																SCUML Registration Assistance
+															</li>
 
-															SCRUM Registration Assistance
-
-														</li>
 
 														<li>
 
@@ -433,34 +435,26 @@
 													</div>
 
 													<ul>
+    <li>
+        Tax Advisory Services
+    </li>
 
-														<li>
-                                                            
-                                                            Tax Advisory Services
+    <li>
+        Tax Compliance Support
+    </li>
 
-														</li>
+    <li>
+        Tax Identification Number (TIN) Registration
+    </li>
 
-														<li>
+    <li>
+        TIN Registration and Verification Assistance
+    </li>
 
-															Tax Compliance Support
-
-                                                            Tax Identification Number (TIN) Registration
-
-														</li>
-
-                                                        <li>
-                                                            
-                                                            TIN Registration and Verification Assistance
-
-														</li>
-
-                                                        <li>
-                                                            
-                                                            Business Regulatory Compliance Assistance
-
-														</li>
-
-													</ul>
+    <li>
+        Business Regulatory Compliance Assistance
+    </li>
+</ul>
 
 												</div>
 
@@ -508,7 +502,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="">
+														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="Business and financial consulting services">
 
 													</div>
 

@@ -3,12 +3,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="msvalidate.01" content="35EC2631777D5BFCB1C16601991EF95D" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'KCS - Finance & Consulting')</title>
+    {{-- SEO Title --}}
+<title>@yield('title', 'Kreeston Consulting Services | Business & Financial Solutions')</title>
 
-    <meta name="description" content="@yield('meta_description', 'Finance and consulting services.')">
+{{-- SEO Description --}}
+
+<meta name="description" content="@yield('meta_description', 'Kreeston Consulting Services provides professional accounting, auditing, tax advisory, CAC registration, business consulting and financial services in Nigeria.')">
+
+{{-- Search Engine Instructions --}}
+<meta name="robots" content="@yield('meta_robots', 'index, follow')">
+
+{{-- Canonical URL --}}
+<link rel="canonical" href="@yield('canonical_url', url()->current())">
+
+{{-- Social Sharing Metadata --}}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Kreeston Consulting Services">
+<meta property="og:title" content="@yield('og_title', 'Kreeston Consulting Services')">
+<meta property="og:description" content="@yield('og_description', 'Professional business, management and financial solutions in Nigeria.')">
+<meta property="og:url" content="@yield('canonical_url', url()->current())">
+<meta property="og:image" content="@yield('og_image', asset('assets/images/Kreeston-Logo-2.png'))">
+
+<script type="application/ld+json">
+{
+    "@@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://kreestonconsults.com/#organization",
+    "name": "Kreeston Consulting Services",
+    "url": "https://kreestonconsults.com/"
+}
+</script>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="{{ asset('assets/stylesheet/bootstrap.min.css') }}">
