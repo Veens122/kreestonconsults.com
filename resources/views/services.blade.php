@@ -58,12 +58,7 @@
 
 							<div class="content">
 
-								<div class="signature">
-
-									<img src="{{ asset('assets/images/about/signature.png') }}" alt="">
-
-								</div>
-
+								
 								<div class="info-author">
 
 									<div class="name">
