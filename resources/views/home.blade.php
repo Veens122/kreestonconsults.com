@@ -156,13 +156,13 @@
                 <div class="owl-about">
                     <div class="owl-carousel-1 style1">
                         <div class="images-about">
-                            <img src="{{ asset('assets/images/about/03.jpg') }}" alt="Business consulting and advisory services at Kreeston Consulting Services">
+                            <img src="{{ asset('assets/images/about/03.webp') }}" alt="Business consulting and advisory services at Kreeston Consulting Services">
                         </div>
                         <div class="images-about">
-                            <img src="{{ asset('assets/images/about/05.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/about/05.webp') }}" alt="">
                         </div>
                         <div class="images-about">
-                            <img src="{{ asset('assets/images/about/06.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/about/06.webp') }}" alt="">
                         </div>
                     </div>
                 </div>

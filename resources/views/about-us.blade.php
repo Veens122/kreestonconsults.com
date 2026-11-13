@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @push('scripts')
 <script type="application/ld+json">
@@ -101,7 +101,7 @@
 
                             <div class="images">
 
-                                <img src="{{ asset('assets/images/about/01.jpg') }}" alt="Kreeston Consulting Services business consulting">
+                                <img src="{{ asset('assets/images/about/01.webp') }}" alt="Kreeston Consulting Services business consulting">
 
                             </div>
 
@@ -135,7 +135,7 @@
 
                                         <div class="imagebox-image">
 
-                                            <img src="{{ asset('assets/images/imagebox/04.jpg') }}" alt="Kreeston Consulting Services mission">
+                                            <img src="{{ asset('assets/images/imagebox/04.webp') }}" alt="Kreeston Consulting Services mission">
 
                                         </div>
 
@@ -161,7 +161,7 @@
 
                                         <div class="imagebox-image">
 
-                                            <img src="{{ asset('assets/images/imagebox/05.jpg') }}" alt="Kreeston Consulting Services vision">
+                                            <img src="{{ asset('assets/images/imagebox/05.webp') }}" alt="Kreeston Consulting Services vision">
 
                                         </div>
 
@@ -187,7 +187,7 @@
 
                                         <div class="imagebox-image">
 
-                                            <img src="{{ asset('assets/images/imagebox/06.jpg') }}" alt="">
+                                            <img src="{{ asset('assets/images/imagebox/06.webp') }}" alt="">
 
                                         </div>
 
@@ -291,7 +291,7 @@
 
                                     <div class="image">
 
-                                        <img src="{{ asset('assets/images/about/02.jpg') }}" alt="Professional business and financial consulting services in Nigeria">
+                                        <img src="{{ asset('assets/images/about/02.webp') }}" alt="Professional business and financial consulting services in Nigeria">
 
                                     </div>
 
@@ -309,7 +309,7 @@
                                         <p>We provide reliable solutions in business registration, financial consulting, tax
                                             compliance and documentation, helping individuals, entrepreneurs and businesses
                                             handle essential processes with confidence. Through our convenient service
-                                            delivery, we make it easier for you to focus on what matters most — growing your
+                                            delivery, we make it easier for you to focus on what matters most &mdash; growing your
                                             business.</p>
 
                                     </div>
@@ -357,7 +357,7 @@
 
                                     <div class="image">
 
-                                        <img src="{{ asset('assets/images/about/03.jpg') }}" alt="Business support and financial advisory">
+                                        <img src="{{ asset('assets/images/about/03.webp') }}" alt="Business support and financial advisory">
 
                                     </div>
 
@@ -515,9 +515,8 @@
                                                     <div class="ceo-bio-content">
 
                                                         <h3>
-															ECHEZONA ONYINYE CHRISTIANA, B.Sc., AAT, ACA, MSc (In View)
-
-Chief Executive Officer | Kreeston Consulting Services
+                                                            ECHEZONA ONYINYE CHRISTIANA, B.Sc., AAT, ACA <br>
+                                                            Chief Executive Officer | Kreeston Consulting Services
 														</h3>
 
                                                         <p>
@@ -525,7 +524,7 @@ Chief Executive Officer | Kreeston Consulting Services
                                                         </p>
 
                                                         <p>
-                                                            She holds a Bachelor of Science degree (B.Sc.) in Accounting, is an Associate Accounting Technician (AAT), an Associate Chartered Accountant (ACA), and is currently pursuing a Master’s degree (MSc) in Finance. Her academic qualifications and professional experience provide her with a strong foundation in financial management, accounting practices, taxation, auditing and business advisory services.
+                                                            She holds a Bachelor of Science degree (B.Sc.) in Accounting, is an Associate Accounting Technician (AAT), an Associate Chartered Accountant (ACA), and is currently pursuing a Master's degree (MSc) in Finance. Her academic qualifications and professional experience provide her with a strong foundation in financial management, accounting practices, taxation, auditing and business advisory services.
                                                         </p>
 
                                                         <p>

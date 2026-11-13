@@ -2340,7 +2340,7 @@ ul.flat-social li {
 
 	position: relative;
 
-	background-image: url('../images/parallax/kreeston-contact.jpg');
+	background-image: url('../images/parallax/kreeston-contact.webp');
 
 }
 
@@ -2348,7 +2348,7 @@ ul.flat-social li {
 
 .page-title.style1 {
 
-	background-image: url('../images/parallax/04.jpg');
+	background-image: url('../images/parallax/04.webp');
 
 }
 
@@ -4294,19 +4294,19 @@ article.main-single .direction ul li a:hover {
 
 .parallax1 { background-image: url(../images/parallax/01.jpg); background-repeat: no-repeat;}
 
-.parallax2 { background-image: url(../images/parallax/kreeston-about.jpg);}
+.parallax2 { background-image: url(../images/parallax/kreeston-about.webp);}
 
-.parallax4 { background-image: url(../images/parallax/04.jpg);}
+.parallax4 { background-image: url(../images/parallax/04.webp);}
 
 .parallax3 { background-image: url(../images/parallax/02.jpg);}
 
-.parallax5 { background-image: url(../images/parallax/05.jpg);}
+.parallax5 { background-image: url(../images/parallax/05.webp);}
 
-.parallax6 { background-image: url(../images/parallax/06.jpg);}
+.parallax6 { background-image: url(../images/parallax/06.webp);}
 
 .parallax7 { background-image: url(../images/parallax/07.jpg);}
 
-.parallax9 { background-image: url(../images/parallax/kreeston-services.jpg);}
+.parallax9 { background-image: url(../images/parallax/kreeston-services.webp);}
 
 
 
@@ -5897,6 +5897,3 @@ article.main-single .direction ul li a:hover {
    KREESTON CONSULTING SERVICES
    OFFICIAL BRAND COLOURS
 ===================================================== */
-
-
-

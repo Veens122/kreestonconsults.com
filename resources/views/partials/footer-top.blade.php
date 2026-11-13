@@ -5,7 +5,7 @@
             <div class="col-md-3 col-sm-6">
                 <div id="logo-ft">
                     <a href="{{ route('home') }}" title="">
-                        <img src="{{ asset('assets/images/Kreeston-Logo-2.png') }}" alt="Company Logo">
+                        <img src="{{ asset('assets/images/Kreeston-Logo-2.webp') }}" alt="Company Logo">
                     </a>
                 </div>
             </div>

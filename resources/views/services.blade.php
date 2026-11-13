@@ -1,4 +1,4 @@
-@extends('layouts.app')
+﻿@extends('layouts.app')
 
 @section('title', 'Business Registration, Tax & Financial Consulting | Kreeston')
 
@@ -197,7 +197,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="">
+														<img src="{{ asset('assets/images/services/01.webp') }}" alt="">
 
 													</div>
 
@@ -271,7 +271,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="">
+														<img src="{{ asset('assets/images/services/01.webp') }}" alt="">
 
 													</div>
 
@@ -316,7 +316,7 @@
 
 										<div class="video-content">
 
-											<img src="{{ asset('assets/images/services/04.jpg')}}" alt="">
+											<img src="{{ asset('assets/images/services/04.webp')}}" alt="">
 
 										</div>
 
@@ -348,7 +348,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="">
+														<img src="{{ asset('assets/images/services/01.webp') }}" alt="">
 
 													</div>
 
@@ -425,7 +425,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="">
+														<img src="{{ asset('assets/images/services/01.webp') }}" alt="">
 
 													</div>
 
@@ -463,7 +463,7 @@
 
 										<div class="video-content">
 
-											<img src="{{ asset('assets/images/services/04.jpg')}}" alt="">
+											<img src="{{ asset('assets/images/services/04.webp')}}" alt="">
 
 										</div>
 
@@ -497,7 +497,7 @@
 
 													<div class="image">
 
-														<img src="{{ asset('assets/images/services/01.jpg') }}" alt="Business and financial consulting services">
+														<img src="{{ asset('assets/images/services/01.webp') }}" alt="Business and financial consulting services">
 
 													</div>
 
